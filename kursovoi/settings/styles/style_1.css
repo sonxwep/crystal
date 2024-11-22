@@ -1,0 +1,499 @@
+@import url("./font.css");
+
+* {
+    font-family: "Manrope-s";
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Manrope-s", sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-inner::before {
+    content: "";
+    display: block;
+
+    position: absolute;
+
+
+    inset: 0;
+
+    background: rgba(95, 189, 226, 0.329);
+
+    z-index: 2;
+
+    pointer-events: none;
+
+}
+
+.lup img {
+    height: 20px;
+    width: 20px;
+}
+
+header {
+    background-color: #000000;
+    padding: 25px;
+}
+
+header .hrefs a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "222";
+    font-size: 20px;
+}
+
+header .hrefs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    width: 35%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.zagolovok a {
+    text-decoration: none;
+    font-family: "111";
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.zagolovok {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.log {
+    height: 30px;
+    width: 30px;
+}
+
+.carousel-item img {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+.section-first .container{
+    height: 900px;
+}
+
+.mainlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 550px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.mainlogo img {
+    height: 70px;
+    width: 70px;
+}
+
+.mainlogo .one {
+    color: rgb(255, 255, 255);
+    font-family: "111-2";
+    font-size: 50px;
+}
+
+.mainlogo .two {
+    color: rgb(255, 255, 255);
+    font-family: "222";
+    font-size: 25px;
+}
+
+.section-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+}
+
+.section-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+}
+.section-second .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-second h1{
+    color: rgb(255, 255, 255);
+    font-family: "111-2";
+    font-size: 60px;
+}
+.section-second .part{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+.about{
+    height: 600px;
+    width: 600px;
+    object-fit: contain;
+}
+.part p{
+    font-family: "222";
+    font-size: 22px;
+    color: #ffffff;
+}
+.white{
+    border: solid 1.5px #ffffff;
+    color: #ffffff;
+    font-family: "222";
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.section-third h1{
+    color: rgb(0, 0, 0);
+    font-family: "111-2";
+    font-size: 60px;
+    display: flex;
+justify-content: center;
+margin: 20px;
+}
+.section-third{
+    background-color: #ffffff;
+}
+.section-third .container{
+    gap: 50px;
+    padding: 40px;
+}
+
+.card{
+    background-color: #000000;
+display: flex;
+justify-content: center;
+}
+.btn_btn-primary{
+    border: solid 1.5px #ffffff;
+    color: #ffffff;
+    font-family: "222";
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 10px; 
+}
+.card-title, .card-text{
+    color: #ffffff;
+    font-family: "222";
+    text-align: center;
+}
+.card img{
+    height: 85%;
+    width: 85%;
+    display: flex;
+margin: 22px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-four{
+    background-color: #000000;
+}
+.section-four .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.person img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.person{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding: 50px;
+    gap: 30px;
+}
+.text h3{
+    font-family: "111-2";
+    font-size: 25px;
+}
+.text p{
+    font-family: "222";
+    font-size: 18px;  
+}
+.text{
+    color: #ffffff;
+    width: 500px;
+}
+.section-four h1{
+    color: rgb(255, 255, 255);
+    font-family: "111-2";
+    font-size: 60px;
+    display: flex;
+justify-content: center;
+padding: 40px;
+}
+#forma{
+    font-family: "111-2";
+    font-size: 40px;   
+}
+#vvod{
+    font-family: "222";
+    font-size: 18px;  
+}
+.btn_btn-dark{
+    border: solid 1.5px #000000;
+    color: #000000;
+    font-family: "222";
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+/* .fio .container{
+    display: flex;
+    justify-content: center;
+} */ 
+
+footer a .nav-link{
+color: #ffffff;
+font-weight: bolder;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #ffffff;
+}
+
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #ffffff;
+    text-decoration: none;
+    background: 0 0;
+    font-family: "222";
+   font-weight: bold;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+
+@media (max-width: 560px) {
+    .container{
+        width:  98%;
+    }
+
+    .zagolovok a{
+        display: flex
+    ;
+        align-items: center;
+        gap: 5px;
+        font-size: 20px;
+    }
+
+    .about {
+        height: 400px;
+        width: 400px;
+        object-fit: contain;
+        
+    }
+
+    .section-second .part {
+        flex-direction: column
+    ;
+        
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .part p {
+        font-family: "222";
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+    .card-title, .card-text {
+        color: #ffffff;
+        font-family: "222";
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .card img {
+        height: 65%;
+        width: 65%;
+        display: flex
+    ;
+        margin: 22px;
+    }
+
+    .section-sviaz .d-flex{
+        padding-left: 0px !important;
+    }
+
+    
+
+}
+
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+
+    header .hrefs {
+        display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        gap: 15%;
+        width: 15%;
+    }
+
+    header .container {
+        flex-direction: column
+    ;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .card-title, .card-text {
+        color: #ffffff;
+        font-family: "222";
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .line {
+        flex-direction: column
+    ;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card img {
+        height: 85%;
+        width: 85%;
+        display: flex
+;
+        margin: 22px;
+    }
+
+    .person {
+        display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        padding: 50px;
+        gap: 10px;
+    }
+
+    .person img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .text h3 {
+        font-family: "111-2";
+        font-size: 20px;
+    }
+
+    .text p {
+        font-family: "222";
+        font-size: 15px;
+    }
+
+    .part p {
+        font-family: "222";
+        font-size: 12px;
+        color: #ffffff;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .container{
+        width:  98%;
+    }
+
+    .about {
+        height: 300px;
+        width: 300px;
+        object-fit: contain;
+    }
+
+    .part p {
+        font-family: "222";
+        font-size: 10px;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 920px) {
+    .container{
+        width:  98%;
+    }
+
+    .about {
+        height: 300px;
+        width: 300px;
+        object-fit: contain;
+    }
+
+    .part p {
+        font-family: "222";
+        font-size: 10px;
+        color: #ffffff;
+    }
+
+    .section-sviaz .d-flex{
+        padding-left: 0px !important;
+        display: flex;
+        align-items: center;
+    }
+}

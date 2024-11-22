@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "111";
+    src: url(../fonts/FoglihtenNo06_076.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "222";
+    src: url(../fonts/MontserratRegular.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "111-2";
+    src: url(../fonts/FoglihtenNo06_076.otf);
+    font-weight: 800;
+    font-style: normal;}
